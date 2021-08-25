@@ -1,0 +1,5 @@
+# node junk
+node_modules/
+
+# secrets
+client_secret.json
