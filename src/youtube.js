@@ -9,9 +9,8 @@ var service = google.youtube('v3');
  *
  * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
  */
-function getChannel(auth) {
+function getChannel() {
   service.channels.list({
-    auth: auth,
     part: 'snippet,contentDetails,statistics',
     forUsername: 'GoogleDevelopers'
   }, function(err, response) {
@@ -33,9 +32,8 @@ function getChannel(auth) {
 }
 
 // lists a set of videos to start off
-function listVideos(auth, topic) {
+function listVideos(topic) {
   service.search.list({
-    auth: auth,
     part: topic,
     maxResults: 50
   }).then(resOnFulfill => {
@@ -46,5 +44,6 @@ function listVideos(auth, topic) {
 }
 
 module.exports = {
-  getChannel: getChannel
+  getChannel: getChannel,
+  listVideos: listVideos
 }
