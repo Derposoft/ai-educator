@@ -37,9 +37,9 @@ function listVideos(topic) {
     part: topic,
     maxResults: 50
   }).then(resOnFulfill => {
-
+    console.log(resOnFulfill.data.items)
   }, resOnReject => {
-
+    console.log(resOnReject)
   })
 }
 
