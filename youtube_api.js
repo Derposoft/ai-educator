@@ -2,14 +2,14 @@ var fs = require('fs');
 var readline = require('readline');
 var {google} = require('googleapis');
 var OAuth2 = google.auth.OAuth2;
+var service = google.youtube('v3');
 
 /**
  * Lists the names and IDs of up to 10 files.
  *
  * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
  */
- function getChannel(auth) {
-  var service = google.youtube('v3');
+function getChannel(auth) {
   service.channels.list({
     auth: auth,
     part: 'snippet,contentDetails,statistics',
@@ -30,6 +30,19 @@ var OAuth2 = google.auth.OAuth2;
                   channels[0].statistics.viewCount);
     }
   });
+}
+
+// lists a set of videos to start off
+function listVideos(auth, topic) {
+  service.search.list({
+    auth: auth,
+    part: topic,
+    maxResults: 50
+  }).then(resOnFulfill => {
+
+  }, resOnReject => {
+
+  })
 }
 
 module.exports = {
