@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "google-auth-library": "^7.6.2",
+    "googleapis": "^84.0.0"
+  }
+}
