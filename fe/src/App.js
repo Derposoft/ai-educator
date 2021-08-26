@@ -1,9 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import { CourseSearch } from './components/CourseSearch'
+import './App.css'
 
 function App() {
   return (
     <div className="App">
+      <CourseSearch />
     </div>
   );
 }

@@ -4,7 +4,7 @@ var youtube = google.youtube('v3');
 // lists a set of videos to start off
 async function listVideos(topic) {
   // only search MIT OCW for now - others can be added as necessary but this conserves
-  var playlist = await youtube.search.list({
+  var playlists = await youtube.search.list({
     part: 'snippet',
     q: topic,
     channelId: 'UCEBb1b_L6zDS3xTUrIALZOw',
@@ -24,6 +24,7 @@ async function listVideos(topic) {
     console.log(resOnReject)
     return { err: 1, playlists: [] }
   })
+  return playlists
 }
 
 module.exports = {
