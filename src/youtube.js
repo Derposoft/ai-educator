@@ -1,49 +1,31 @@
-var fs = require('fs');
-var readline = require('readline');
 var {google} = require('googleapis');
-var OAuth2 = google.auth.OAuth2;
-var service = google.youtube('v3');
-
-/**
- * Lists the names and IDs of up to 10 files.
- *
- * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
- */
-function getChannel() {
-  service.channels.list({
-    part: 'snippet,contentDetails,statistics',
-    forUsername: 'GoogleDevelopers'
-  }, function(err, response) {
-    if (err) {
-      console.log('The API returned an error: ' + err);
-      return;
-    }
-    var channels = response.data.items;
-    if (channels.length == 0) {
-      console.log('No channel found.');
-    } else {
-      console.log('This channel\'s ID is %s. Its title is \'%s\', and ' +
-                  'it has %s views.',
-                  channels[0].id,
-                  channels[0].snippet.title,
-                  channels[0].statistics.viewCount);
-    }
-  });
-}
+var youtube = google.youtube('v3');
 
 // lists a set of videos to start off
-function listVideos(topic) {
-  service.search.list({
-    part: topic,
+async function listVideos(topic) {
+  // only search MIT OCW for now - others can be added as necessary but this conserves
+  var playlist = await youtube.search.list({
+    part: 'snippet',
+    q: topic,
+    channelId: 'UCEBb1b_L6zDS3xTUrIALZOw',
+    type: 'playlist',
     maxResults: 50
-  }).then(resOnFulfill => {
+  },).then(resOnFulfill => {
     console.log(resOnFulfill.data.items)
+    var playlists = resOnFulfill.data.items
+    /*// perhaps add a model here to determine "best pick" courses from the list
+    for (var i = 0; i < items.length; i++) {
+      var playlist = items[i]
+      var title = playlist.snippet.title
+      var description = playlist.snippet.description
+    }*/
+    return { err: 0, playlists: playlists }
   }, resOnReject => {
     console.log(resOnReject)
+    return { err: 1, playlists: [] }
   })
 }
 
 module.exports = {
-  getChannel: getChannel,
   listVideos: listVideos
 }

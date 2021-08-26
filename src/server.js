@@ -17,12 +17,12 @@ app.get('/auth', function(req, res) {
   res.send('successfully authenticated! you may now return to the app')
 })
 
-// learning
+// topic query
 app.get('/learn/:topic', function(req, res) {
   console.log(req.params.topic)
   var topic = req.params.topic
-  youtube.listVideos(topic) //test
-  res.send('It looks like you\'d like to learn about ' + topic + ' today! Let\'s get started.')
+  var playlists = await youtube.listVideos(topic)
+  res.send(playlists)
 })
 
 const port = 3000
