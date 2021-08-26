@@ -5,7 +5,6 @@ import { Playlist } from './Playlist'
 import api from '../api'
 import './CourseSearch.css'
 
-
 export function CourseSearch() {
   const [query, setQuery] = useState('')
   const [playlists, setPlaylists] = useState({err: 0, playlists: []})
