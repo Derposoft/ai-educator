@@ -25,6 +25,6 @@ app.get('/learn/:topic', function(req, res) {
   res.send(playlists)
 })
 
-const port = 3000
+const port = 8080
 console.log('app listening on port: ' + port)
 app.listen(port)
