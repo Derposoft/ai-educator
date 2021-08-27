@@ -38,7 +38,7 @@ export function CourseSearch() {
           <Button onClick={getResults}><KeyboardReturnIcon /></Button>
         </Container>
         {playlists.err === 0 ? 
-          <Typography>Get started by entering a course search term above.</Typography> :
+          <Typography>Get started by entering a search term above. A course will be generated for you.</Typography> :
           <Typography color='error'>Either nothing was found or an error occurred. Please try again.</Typography>
         }
       </div>

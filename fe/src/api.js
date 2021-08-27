@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const SERVER_URI = 'http://localhost:8080/'
+const SERVER_URI = 'http://localhost:3000/'
 
 async function sendQuery(topic) {
   try {
