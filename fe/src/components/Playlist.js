@@ -1,7 +1,7 @@
 import './Playlist.css'
 
 export function Playlist(playlist) {
-  console.log(playlist.playlist.snippet)
+  console.log(playlist.playlist.id)
   return (
     <tr>
       <th>
@@ -16,8 +16,11 @@ export function Playlist(playlist) {
         </iframe>
       </th>
       <th className='info'>
-        <p>{playlist.playlist.snippet.title}</p>
-        <p>{playlist.playlist.snippet.description}</p>
+        <div>
+          <a href={'/course='+playlist.playlist.id.playlistId}><span className='linkspan'></span></a>
+          <p>{playlist.playlist.snippet.title}</p>
+          <p>{playlist.playlist.snippet.description}</p>
+        </div>
       </th>
     </tr>
   )
