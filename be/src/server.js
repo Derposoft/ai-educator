@@ -19,8 +19,8 @@ app.get('/auth', function(req, res) {
   res.send('successfully authenticated! you may now return to the app')
 })
 
-// topic query
-app.get('/query/:topic', async function(req, res) {
+// topic query (MOCKED)
+app.get('/api/query/:topic', async function(req, res) {
   console.log(req.params.topic)
   var topic = req.params.topic
   //var playlists = await youtube.listVideos(topic)
@@ -57,6 +57,16 @@ app.get('/query/:topic', async function(req, res) {
      publishTime: '2017-06-22T15:07:39Z' } }]}
   //console.log('sending: ' + playlists)
   res.send(playlists)
+})
+
+// get user's courses
+app.post('/api/courses', async function(req, res) {
+  // dummy course
+  var course = {
+    etag: 'VWeflzzuwJoyXTuWMWCvu3fxb0k',
+    playlistId: 'PLUl4u3cNGP61-9PEhRognw5vryrSEVLPr'
+  }
+
 })
 
 const port = 8080

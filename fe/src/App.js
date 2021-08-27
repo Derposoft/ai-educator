@@ -7,8 +7,9 @@ import { SiteHeader } from './SiteHeader'
 import './App.css'
 
 function App() {
+  localStorage.setItem('user', 'test')
   return (
-    <div className="App">
+    <div className='App'>
       <div>
         <SiteHeader />
       </div>

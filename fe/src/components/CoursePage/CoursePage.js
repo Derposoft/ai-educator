@@ -1,7 +1,7 @@
 export function CoursePage() {
   return (
     <div>
-      <p>CoursePage</p>
+      <p>Course</p>
     </div>
   )
 }
