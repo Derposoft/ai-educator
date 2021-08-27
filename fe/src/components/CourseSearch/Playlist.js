@@ -17,7 +17,7 @@ export function Playlist(playlist) {
       </th>
       <th className='info'>
         <div>
-          <a href={'/course='+playlist.playlist.id.playlistId}><span className='linkspan'></span></a>
+          <a href={'/course?id='+playlist.playlist.id.playlistId}><span className='linkspan'></span></a>
           <p>{playlist.playlist.snippet.title}</p>
           <p>{playlist.playlist.snippet.description}</p>
         </div>

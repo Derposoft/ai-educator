@@ -2,7 +2,7 @@ import { Button, Container, TextField, Typography } from '@material-ui/core'
 import KeyboardReturnIcon from '@material-ui/icons/KeyboardReturn'
 import { useState } from 'react'
 import { Playlist } from './Playlist'
-import api from '../api'
+import api from '../../api'
 import './CourseSearch.css'
 
 export function CourseSearch() {
