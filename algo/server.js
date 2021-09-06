@@ -8,6 +8,7 @@ const path = require('path')
 // initialization
 const app = express()
 app.use(cors())
+app.use(express.json())
 utilities.initializeYoutubeApi()
 utilities.initializeMongoDB()
 
@@ -34,18 +35,21 @@ app.get('/api/query/:topic', async function(req, res) {
   console.log(req.params.topic)
   var topic = req.params.topic
   var initCourse = await algo.CourseInit(topic)
+  // using "test" user
+  utilities.db.insertOne({ '_id': 'test', 'curr': 0, ...initCourse })
   res.send(initCourse)
+})
+// course feedback
+app.post('/api/feedback', async function(req, res) {
+  var understood = req.body.understood
+  var feedback = req.body.feedback
+  var feedbackCourse = await algo.CourseFeedback(understood, feedback, 'test') // using "test" user
+  res.send(feedbackCourse)
 })
 
 //
 // dummy front end
 //
-//app.use(express.static('public'))
-/* final catch-all route to index.html defined last
-app.get('/*', (req, res) => {
-  res.sendFile(__dirname + '/public/');
-}) */
-
 app.use('/', express.static(path.join(__dirname, './public')))
 app.use('*', express.static(path.join(__dirname, './public')))
 
