@@ -9,6 +9,15 @@ const path = require('path')
 const app = express()
 app.use(cors())
 utilities.initializeYoutubeApi()
+utilities.initializeMongoDB()
+
+// TESTING CODE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//console.log(algo.CourseInit('quantum mechanics'))
+
+
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 //
 // back end
@@ -24,7 +33,8 @@ app.get('/auth', function(req, res) {
 app.get('/api/query/:topic', async function(req, res) {
   console.log(req.params.topic)
   var topic = req.params.topic
-  res.send(algo.CourseGen(topic))
+  var initCourse = await algo.CourseInit(topic)
+  res.send(initCourse)
 })
 
 //
