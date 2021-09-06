@@ -10,8 +10,24 @@ var SCOPES = ['https://www.googleapis.com/auth/youtube.readonly'];
 var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH ||
     process.env.USERPROFILE) + '/.credentials/';
 var TOKEN_PATH = TOKEN_DIR + 'youtube-secret-token.json';
-var CLIENT_SECRET_FILE = '../secrets/youtube_secret.json';
+var CLIENT_SECRET_FILE = './secrets/youtube_secret.json';
 var auth;
+
+// initialize the mongodb connection
+const mongosecret = require('./secrets/mongodb_secret.json')
+const uri = mongosecret.URI
+const { MongoClient } = require('mongodb')
+const mongodb = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true })
+const db = mongodb.db(mongosecret.db).collection(mongosecret.collection)
+async function initializeMongoDB() {
+  await mongodb.connect()
+  //db = mongodb.db(mongosecret.db).collection(mongosecret.collection)
+  return true
+}
+function stopMongoDB() {
+  mongodb.close()
+  return true
+}
 
 // initialize the authorization for the API
 function initializeYoutubeApi() {
@@ -117,6 +133,10 @@ function storeToken(token) {
 }
 
 module.exports = {
+  initializeMongoDB: initializeMongoDB,
+  stopMongoDB: stopMongoDB,
+  mongodb: mongodb,
+  db: db,
   initializeYoutubeApi: initializeYoutubeApi,
   authYouTubeApi: authYouTubeApi
 }

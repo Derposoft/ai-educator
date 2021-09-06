@@ -32,18 +32,24 @@ app.get('/auth', function(req, res) {
 app.get('/api/query/:topic', async function(req, res) {
   console.log(req.params.topic)
   var topic = req.params.topic
-  var initCourse = await algo.CourseInit(topic)
+  var courseInit = await algo.CourseInit(topic)
   // using "test" user
-  utilities.db.insertOne({ '_id': 'test', 'curr': 0, ...initCourse })
-  res.send(initCourse)
+  utilities.db.insertOne({ '_id': 'test', 'curr': 0, ...courseInit })
+  res.send(courseInit)
 })
 
 // course feedback INPUT body={understood:boolean, feedback:string}
 app.post('/api/feedback', async function(req, res) {
   var understood = req.body.understood
   var feedback = req.body.feedback
-  var feedbackCourse = await algo.CourseFeedback(understood, feedback, 'test') // using "test" user
-  res.send(feedbackCourse)
+  var courseFeedback = await algo.CourseFeedback(understood, feedback, 'test') // using "test" user
+  res.send(courseFeedback)
+})
+
+// course update
+app.post('/api/getcourses', async function(req, res) {
+  var courseInfo = await utilities.db.findOne({'_id': 'test'}) // using "test" user
+  res.send(courseInfo)
 })
 
 //

@@ -1,13 +1,22 @@
 // imports
 const express = require('express')
-const utilities = require('./utilities')
-const youtube = require('./youtube')
 const cors = require('cors')
+const utilities = require('./utilities')
+const algo = require('./algo')
+const path = require('path')
 
 // initialization
 const app = express()
 app.use(cors())
+app.use(express.json())
 utilities.initializeYoutubeApi()
+utilities.initializeMongoDB()
+
+// TESTING CODE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//console.log(algo.CourseInit('quantum mechanics'))
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 //
 // back end
@@ -19,56 +28,36 @@ app.get('/auth', function(req, res) {
   res.send('successfully authenticated! you may now return to the app')
 })
 
-// topic query (MOCKED)
+// course generation INPUT params={topic}
 app.get('/api/query/:topic', async function(req, res) {
   console.log(req.params.topic)
   var topic = req.params.topic
-  //var playlists = await youtube.listVideos(topic)
-  // mock
-  var playlists = { err: 0, playlists: [{ kind: 'youtube#searchResult',
-  etag: 'VWeflzzuwJoyXTuWMWCvu3fxb0k',
-  id:
-   { kind: 'youtube#playlist',
-     playlistId: 'PLUl4u3cNGP61-9PEhRognw5vryrSEVLPr' },
-  snippet:
-   { publishedAt: '2014-06-10T15:38:46Z',
-     channelId: 'UCEBb1b_L6zDS3xTUrIALZOw',
-     title: 'MIT 8.04 Quantum Physics I, Spring 2013 (2013)',
-     description:
-      'View the complete course: http://ocw.mit.edu/8-04S13 Instructor: Allan Adams This course covers the experimental basis of quantum physics. It introduces wave ...',
-     thumbnails: [Object],
-     channelTitle: 'MIT OpenCourseWare',
-     liveBroadcastContent: 'none',
-     publishTime: '2014-06-10T15:38:46Z' } },
-{ kind: 'youtube#searchResult',
-  etag: 'kvIp3F5jyDmrqjL1uLFJM5BvBW4',
-  id:
-   { kind: 'youtube#playlist',
-     playlistId: 'PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G' },
-  snippet:
-   { publishedAt: '2017-06-22T15:07:39Z',
-     channelId: 'UCEBb1b_L6zDS3xTUrIALZOw',
-     title: 'MIT 8.04 Quantum Physics I, Spring 2016',
-     description:
-      'MIT 8.04 Quantum Physics I, Spring 2016 View the complete course: http://ocw.mit.edu/8-04S16 Instructor: Barton Zwiebach License: Creative Commons ...',
-     thumbnails: [Object],
-     channelTitle: 'MIT OpenCourseWare',
-     liveBroadcastContent: 'none',
-     publishTime: '2017-06-22T15:07:39Z' } }]}
-  //console.log('sending: ' + playlists)
-  res.send(playlists)
+  var courseInit = await algo.CourseInit(topic)
+  // using "test" user
+  utilities.db.insertOne({ '_id': 'test', 'curr': 0, ...courseInit })
+  res.send(courseInit)
 })
 
-// get user's courses
-app.post('/api/courses', async function(req, res) {
-  // dummy course
-  var course = {
-    etag: 'VWeflzzuwJoyXTuWMWCvu3fxb0k',
-    playlistId: 'PLUl4u3cNGP61-9PEhRognw5vryrSEVLPr'
-  }
-
+// course feedback INPUT body={understood:boolean, feedback:string}
+app.post('/api/feedback', async function(req, res) {
+  var understood = req.body.understood
+  var feedback = req.body.feedback
+  var courseFeedback = await algo.CourseFeedback(understood, feedback, 'test') // using "test" user
+  res.send(courseFeedback)
 })
 
-const port = 8080
+// course update
+app.post('/api/getcourses', async function(req, res) {
+  var courseInfo = await utilities.db.findOne({'_id': 'test'}) // using "test" user
+  res.send(courseInfo)
+})
+
+//
+// dummy front end
+//
+app.use('/', express.static(path.join(__dirname, './public')))
+app.use('*', express.static(path.join(__dirname, './public')))
+
+const port = 3000
 console.log('app listening on port: ' + port)
 app.listen(port)
