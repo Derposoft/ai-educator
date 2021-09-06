@@ -16,8 +16,6 @@ utilities.initializeMongoDB()
 
 //console.log(algo.CourseInit('quantum mechanics'))
 
-
-
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 //
@@ -30,7 +28,7 @@ app.get('/auth', function(req, res) {
   res.send('successfully authenticated! you may now return to the app')
 })
 
-// course generation
+// course generation INPUT params={topic}
 app.get('/api/query/:topic', async function(req, res) {
   console.log(req.params.topic)
   var topic = req.params.topic
@@ -39,7 +37,8 @@ app.get('/api/query/:topic', async function(req, res) {
   utilities.db.insertOne({ '_id': 'test', 'curr': 0, ...initCourse })
   res.send(initCourse)
 })
-// course feedback
+
+// course feedback INPUT body={understood:boolean, feedback:string}
 app.post('/api/feedback', async function(req, res) {
   var understood = req.body.understood
   var feedback = req.body.feedback
