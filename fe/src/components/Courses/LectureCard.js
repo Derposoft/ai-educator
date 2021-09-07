@@ -32,7 +32,7 @@ const useStyles = makeStyles({
 export function LectureCard(props) {
   const classes = useStyles()
   var video = props.lectureInfo
-  console.log(video.snippet)
+  console.log('video.snippet')
   var shortenTitle = (title) => {
     const MAX_LENGTH = 25
     if (title.length > MAX_LENGTH) {

@@ -1,9 +1,10 @@
 import { Typography } from '@material-ui/core'
 import { useState, useEffect } from 'react'
-import api from '../../api'
-import { CourseCard } from '../Courses/CourseCard'
-import './Courses.css'
+import { CourseCard } from './CourseCard'
+import { Feedback } from './Feedback'
 import { LectureCard } from './LectureCard'
+import api from '../../api'
+import './Courses.css'
 
 export function Courses(courseInfo) {
   const [courses, setCourses] = useState({err: 0, courses: []})
@@ -57,10 +58,16 @@ export function Courses(courseInfo) {
     }
   }
 
+  var onSubmitFeedback = (understood, feedback) => {
+    console.log('ready to submit feedback and refresh courses page')
+    console.log(understood)
+    console.log(feedback)
+  }
+
   return (
     <div>
       <div className='courses'>
-        <Typography variant='h2'>
+        <Typography variant='h4'>
           Course Selection
         </Typography>
         {courses.err == 0 ? 
@@ -71,27 +78,32 @@ export function Courses(courseInfo) {
         <Typography color='error'>It looks like there was a problem. Are you logged in?</Typography>}
       </div>
       <div className='currcourse'>
-        <Typography variant='h2'>
+        <Typography variant='h4'>
           Content
         </Typography>
-        {(JSON.stringify(currLecture) != '{}') ? 
-          <div className='currcourse'>
-            <iframe 
-              width='560' 
-              height='315' 
-              src={'https://www.youtube.com/embed/'+currLecture.playlist[currLecture.curr].snippet.resourceId.videoId}
-              title='YouTube video player' 
-              frameborder='0' 
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' 
-              allowfullscreen>
-            </iframe>
+        {(JSON.stringify(currLecture) != '{}') ?
+          <div>            
+            <div className='currlecture'>
+              <iframe 
+                width='700' 
+                height='400' 
+                src={'https://www.youtube.com/embed/'+currLecture.playlist[currLecture.curr].snippet.resourceId.videoId}
+                title='YouTube video player' 
+                frameborder='0' 
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' 
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div className='feedback'>
+              <Feedback onSubmitFeedback={onSubmitFeedback}/>
+            </div>
+            <div className='lecturescroll'>
+              {courseContent.map(video => {return <LectureCard lectureInfo={video}/>})}
+            </div>
+            <p className='debug'>{JSON.stringify(course)}</p>
           </div> :
           <Typography className='course' variant='h6'>Choose a Course to continue above to get started</Typography>
         }
-        <div className='courses'>
-          {courseContent.map(video => {return <LectureCard lectureInfo={video}/>})}
-        </div>
-        <p>{JSON.stringify(course)}</p>
       </div>
     </div>
   )
