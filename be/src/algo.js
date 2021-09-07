@@ -121,7 +121,7 @@ async function CourseUpdate(topic) {
  * @param {*} feedback actual text feedback from user
  * @returns the updated course after user feedback is saved and taken into account
  */
-async function CourseFeedback(understood, feedback, user) {
+async function CourseFeedback(understood, feedback, courseid) {
   // what this function does:
   // 1. update course with understanding and feedback
   // 2. insert new videos for them to understand their current lecture if they don't understand something
@@ -129,7 +129,7 @@ async function CourseFeedback(understood, feedback, user) {
   // 4. update database with new feedback/videos
 
   // 1. update course
-  var course = await utilities.db.findOne({ '_id': user })
+  var course = await utilities.coursedb.findOne({ '_id': courseid })
   var currCourse = course
   // find current lecture to tag feedback onto
   while (currCourse.playlist != undefined) {
@@ -164,7 +164,7 @@ async function CourseFeedback(understood, feedback, user) {
   }
 
   // 4. update database
-  var result = utilities.db.updateOne({'_id': user}, {'$set': {...course}})
+  var result = utilities.coursedb.updateOne({'_id': courseid}, {'$set': {...course}})
 
   return result
 }

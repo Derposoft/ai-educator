@@ -29,27 +29,38 @@ app.get('/auth', function(req, res) {
 })
 
 // course generation INPUT params={topic}
-app.get('/api/query/:topic', async function(req, res) {
+app.post('/api/gen/:topic', async function(req, res) {
   console.log(req.params.topic)
+  var user = req.body.user
   var topic = req.params.topic
   var courseInit = await algo.CourseInit(topic)
   // using "test" user
-  utilities.db.insertOne({ '_id': 'test', 'curr': 0, ...courseInit })
+  var random = Math.floor(Math.random()*1000000).toString(16)
+  utilities.userdb.findOneAndUpdate({'userid': user}, {'$addToSet': {'courses': random}})
+  utilities.coursedb.insertOne({ '_id': random, 'curr': 0, 'user': user, ...courseInit })
   res.send(courseInit)
 })
 
 // course feedback INPUT body={understood:boolean, feedback:string}
-app.post('/api/feedback', async function(req, res) {
+app.post('/api/feedback/:courseid', async function(req, res) {
+  var courseid = req.params.courseid
   var understood = req.body.understood
   var feedback = req.body.feedback
-  var courseFeedback = await algo.CourseFeedback(understood, feedback, 'test') // using "test" user
+  var courseFeedback = await algo.CourseFeedback(understood, feedback, courseid) // using "test" user
   res.send(courseFeedback)
 })
 
 // course update
-app.post('/api/getcourses', async function(req, res) {
-  var courseInfo = await utilities.db.findOne({'_id': 'test'}) // using "test" user
-  res.send(courseInfo)
+app.post('/api/courses', async function(req, res) {
+  var user = req.body.user
+  var userInfo = await utilities.userdb.findOne({'_id': user})
+  var courses = userInfo.courses
+  var courseInfos = []
+  for (var course in courses) {
+    var courseInfo = await utilities.coursedb.findOne({'_id': course})
+    courseInfos.push(courseInfo)
+  }
+  res.send(courseInfos)
 })
 
 //
@@ -58,6 +69,6 @@ app.post('/api/getcourses', async function(req, res) {
 app.use('/', express.static(path.join(__dirname, './public')))
 app.use('*', express.static(path.join(__dirname, './public')))
 
-const port = 3000
+const port = 8080
 console.log('app listening on port: ' + port)
 app.listen(port)
