@@ -1,0 +1,18 @@
+.course {
+  min-width: 200px;
+  margin: 10px 10px 10px 10px;
+  display: block;
+}
+
+.courses {
+  margin: 10px 10px 10px 10px;
+  display: block;
+  overflow-x: scroll;
+  max-height: 10%;
+  white-space: nowrap;
+}
+
+.currcourse {
+  margin: 10px 10px 10px 10px;
+  display: block;
+}

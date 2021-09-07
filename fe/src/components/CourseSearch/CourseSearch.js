@@ -1,5 +1,6 @@
 import { Button, Container, TextField, Typography } from '@material-ui/core'
 import KeyboardReturnIcon from '@material-ui/icons/KeyboardReturn'
+import { Redirect } from 'react-router-dom'
 import { useState } from 'react'
 import { Playlist } from './Playlist'
 import api from '../../api'
@@ -8,6 +9,7 @@ import './CourseSearch.css'
 export function CourseSearch() {
   const [query, setQuery] = useState('')
   const [playlists, setPlaylists] = useState({err: 0, playlists: []})
+  const [gotResults, setGotResults] = useState(false)
 
   var onQueryChange = (e) => {
     setQuery(e.target.value)
@@ -26,11 +28,13 @@ export function CourseSearch() {
         setPlaylists({ err: 1, playlists: []})
         console.log('failed')
       }
+      setGotResults(true)
     })
   }
 
   return (
     <div>
+      {(gotResults) ? <Redirect to='/courses'/> : <p></p>}
       <div className='title'>
         <Container>
           <Typography variant='h6'>What do you want to learn about today?</Typography>
@@ -45,10 +49,10 @@ export function CourseSearch() {
       <div className='courses'>
         <Container>
           <table>
-            {playlists.playlists.map(playlist => {
+            {/*playlists.playlists.map(playlist => {
               console.log(playlist)
               return (<Playlist playlist={playlist}/>)
-            })}
+            })*/}
           </table>
         </Container>
       </div>

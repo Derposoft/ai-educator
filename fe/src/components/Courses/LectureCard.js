@@ -29,19 +29,40 @@ const useStyles = makeStyles({
  * }
  * @returns 
  */
-export function CourseCard(props) {
+export function LectureCard(props) {
   const classes = useStyles()
-  var course = props.courseInfo
+  var video = props.lectureInfo
+  console.log(video.snippet)
+  var shortenTitle = (title) => {
+    const MAX_LENGTH = 25
+    if (title.length > MAX_LENGTH) {
+      return title.substring(0, MAX_LENGTH - 3) + '...'
+    }
+    else {
+      return title
+    }
+  }
   return (
     <div style={{'display': 'inline-block'}}>
       <Card className={classes.root} className='course'>
         <CardContent>
           <Typography className={classes.title} color="textSecondary" gutterBottom>
-            {course.title}
+            {video.title}
           </Typography>
+            <div>
+              <iframe 
+                width='200' 
+                height='120' 
+                src={'https://www.youtube.com/embed/'+video.snippet.resourceId.videoId}
+                title='YouTube video player' 
+                frameborder='0' 
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' 
+                allowfullscreen>
+              </iframe>
+            </div>
         </CardContent>
         <CardActions>
-          <Button size="small" onClick={() => props.onSelectCourse(course)}>Continue</Button>
+          <Button size="small" onClick={() => props.onSelectCourse(video)}>{shortenTitle(video.snippet.title)}</Button>
         </CardActions>
       </Card>
     </div>
