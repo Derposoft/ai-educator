@@ -18,8 +18,8 @@ const mongosecret = require('../secrets/mongodb_secret.json')
 const uri = mongosecret.URI
 const { MongoClient } = require('mongodb')
 const mongodb = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true })
-const userdb = mongodb.db(mongosecret.db).collection(mongosecret.courses)
-const coursedb = mongodb.db(mongosecret.db).collection(mongosecret.users)
+const userdb = mongodb.db(mongosecret.db).collection(mongosecret.users)
+const coursedb = mongodb.db(mongosecret.db).collection(mongosecret.courses)
 async function initializeMongoDB() {
   await mongodb.connect()
   //db = mongodb.db(mongosecret.db).collection(mongosecret.collection)

@@ -30,14 +30,14 @@ app.get('/auth', function(req, res) {
 
 // course generation INPUT params={topic}
 app.post('/api/gen/:topic', async function(req, res) {
-  console.log(req.params.topic)
   var user = req.body.user
   var topic = req.params.topic
   var courseInit = await algo.CourseInit(topic)
-  // using "test" user
+  // create random course number and adds course to db
+  // and yes, i'm aware that this has an n in 1000000 chance to fail.
   var random = Math.floor(Math.random()*1000000).toString(16)
-  utilities.userdb.findOneAndUpdate({'userid': user}, {'$addToSet': {'courses': random}})
-  utilities.coursedb.insertOne({ '_id': random, 'curr': 0, 'user': user, ...courseInit })
+  utilities.userdb.findOneAndUpdate({'_id': user}, {'$addToSet': {'courses': random}})
+  utilities.coursedb.insertOne({ '_id': random, 'curr': 0, 'title': topic, 'user': user, ...courseInit })
   res.send(courseInit)
 })
 
@@ -56,7 +56,8 @@ app.post('/api/courses', async function(req, res) {
   var userInfo = await utilities.userdb.findOne({'_id': user})
   var courses = userInfo.courses
   var courseInfos = []
-  for (var course in courses) {
+  for (var i = 0; i < courses.length; i++) {
+    var course = courses[i]
     var courseInfo = await utilities.coursedb.findOne({'_id': course})
     courseInfos.push(courseInfo)
   }
