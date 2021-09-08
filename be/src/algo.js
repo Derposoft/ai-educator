@@ -31,7 +31,7 @@ var utilities = require('./utilities')
  * The steps this algorithm takes are outlined in the README in this directory.
  */
 async function CourseInit(topic) {
-  // only search MIT OCW for now - TODO others can be added as necessary but this conserves
+  // only search MIT OCW for now - TODO others can be added as necessary but this is easier
   var playlist = await youtube.search.list({
     part: 'snippet',
     q: topic,
@@ -92,15 +92,14 @@ async function CourseInit(topic) {
  * The array can have 0 elements in the event of an error;
  */
 async function CourseUpdate(topic) {
-  // only search MIT OCW for now - others can be added as necessary but this conserves
   var playlist = await youtube.search.list({
     part: 'snippet',
     q: topic,
     type: 'video',
-    maxResults: 10
+    maxResults: 1 // currently set to 1 but this is in theory a hyperparameter n that should update based on the user's behavior
   },).then(resOnFulfill => {
     var playlist = resOnFulfill.data.items
-    // TODO model here to determine "best pick" follow-up videos from the list
+    // TODO model here to determine n "best pick" follow-up videos from the list
     /*for (var i = 0; i < items.length; i++) {
       var playlist = items[i]
       var title = playlist.snippet.title
@@ -131,12 +130,14 @@ async function CourseFeedback(understood, feedback, courseid) {
   // 1. update course
   var course = await utilities.coursedb.findOne({ '_id': courseid })
   var currCourse = course
+  var parentCourse = course
   // find current lecture to tag feedback onto
   while (currCourse.playlist != undefined) {
     var currUnderstood = currCourse.playlist[currCourse.curr].understood
-    if (currUnderstood == false)
+    if (currUnderstood == false) {
+      parentCourse = currCourse
       currCourse = currCourse.playlist[currCourse.curr]
-    else
+    } else
       break
   }
   // tag feedback onto current lecture
@@ -151,7 +152,7 @@ async function CourseFeedback(understood, feedback, courseid) {
       playlist = result.playlist
     }
     currCourse.playlist[currCourse.curr].playlist = playlist
-    currCourse.value
+    //currCourse.value
   }
 
   // 3. set current progress
@@ -159,6 +160,8 @@ async function CourseFeedback(understood, feedback, courseid) {
     currCourse.playlist[currCourse.curr].curr = 0
   }
   else {
+    if (parentCourse != currCourse)
+      parentCourse.curr = parentCourse.curr + 1
     currCourse.curr = currCourse.curr + 1
     currCourse.understood = true
   }
