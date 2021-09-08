@@ -41,7 +41,7 @@ export function CourseCard(props) {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small" onClick={() => props.onSelectCourse(course)}>Continue</Button>
+          <Button size="small" href={'#'+course._id} onClick={() => props.onSelectCourse(course)}>Continue</Button>
         </CardActions>
       </Card>
     </div>

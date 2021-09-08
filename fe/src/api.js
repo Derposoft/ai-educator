@@ -7,7 +7,7 @@ async function sendQuery(topic) {
     var playlists = await axios.post(SERVER_URI + '/api/gen/' + topic, {
       user: localStorage.getItem('user')
     })
-    console.log(playlists)
+    //console.log(playlists)
     return playlists
   } catch {
     return {
@@ -36,7 +36,7 @@ async function getCourses() {
     var courses = await axios.post(SERVER_URI + '/api/courses/', {
       user: localStorage.getItem('user')
     })
-    console.log(courses)
+    //console.log(courses)
     return courses
   } catch {
     return {

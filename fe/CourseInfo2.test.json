@@ -1,0 +1,1575 @@
+{
+  "_id": "37e2a",
+  "curr": 2,
+  "user": "test",
+  "err": 0,
+  "playlist": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "tb8qkBMh3kTKwCMi_yotjZJG3r8",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy41ODIyMTgwQzA4NjJCQkZC",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:08:56Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L1.1 Quantum mechanics as a framework. Defining linearity.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jANZxzetPaQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jANZxzetPaQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jANZxzetPaQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jANZxzetPaQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jANZxzetPaQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jANZxzetPaQ"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      },
+      "understood": true,
+      "feedback": "asdfa"
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "kyXhHOt6Tas1Ugx-n0pZPFHJcEM",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy44Mjc5REFBRUE2MTdFRDU0",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:07:39Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L1.2 Linearity and nonlinear theories. Schrödinger’s equation.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kiuwtaprFjk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kiuwtaprFjk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kiuwtaprFjk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kiuwtaprFjk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/kiuwtaprFjk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "kiuwtaprFjk"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      },
+      "understood": true,
+      "feedback": null,
+      "playlist": [
+        {
+          "kind": "youtube#searchResult",
+          "etag": "p4RKvz6JjRQM5GEzczHQRTv4yB4",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "QeUMFo8sODk"
+          },
+          "snippet": {
+            "publishedAt": "2018-07-06T13:00:01Z",
+            "channelId": "UCSIvk78tK2TiviLQn4fSHaw",
+            "title": "What is The Schrödinger Equation, Exactly?",
+            "description": "Sign up to brilliant.org to receive a 20% discount with this link! https://brilliant.org/upandatom/ *My Quantum Physics Essay* ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/QeUMFo8sODk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/QeUMFo8sODk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/QeUMFo8sODk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Up and Atom",
+            "liveBroadcastContent": "none",
+            "publishTime": "2018-07-06T13:00:01Z"
+          },
+          "understood": true,
+          "feedback": "i understood everything!"
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "_B8KkjvzX0NrpbXlcMZhD5ZcWDo",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "O6g-7rUgrdg"
+          },
+          "snippet": {
+            "publishedAt": "2017-05-02T19:22:56Z",
+            "channelId": "UC0cd_-e49hZpWLH3UIwoWRA",
+            "title": "Quantum Mechanics and the Schrödinger Equation",
+            "description": "Okay, it's time to dig into quantum mechanics! Don't worry, we won't get into the math just yet, for now we just want to understand what the math represents, and ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/O6g-7rUgrdg/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/O6g-7rUgrdg/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/O6g-7rUgrdg/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Professor Dave Explains",
+            "liveBroadcastContent": "none",
+            "publishTime": "2017-05-02T19:22:56Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "zd5EZdp9RHf8-PkBDr3UP860b2Q",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "BFTxP03H13k"
+          },
+          "snippet": {
+            "publishedAt": "2018-10-19T18:30:00Z",
+            "channelId": "UC9lztld5qPi-6WZ9_QIVR6g",
+            "title": "Schrodinger Equation Explained - Physics FOR BEGINNERS (can YOU understand this?)",
+            "description": "EVEN YOU can understand what this fundamental equation of Physics actually means! Hey you lot, how's it going? I'm back with another Physics video.",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/BFTxP03H13k/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/BFTxP03H13k/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/BFTxP03H13k/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Parth G",
+            "liveBroadcastContent": "none",
+            "publishTime": "2018-10-19T18:30:00Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "gOBFjEAxz-xdAokDHRJNupyzvDY",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "OFwskHrtYQ4"
+          },
+          "snippet": {
+            "publishedAt": "2018-06-25T17:36:29Z",
+            "channelId": "UC4a-Gbdw7vOaccHmFo40b9g",
+            "title": "Quantum Wavefunction | Quantum physics | Physics | Khan Academy",
+            "description": "In this video David gives an introductory explanation of what the quantum wavefunction is, how to use it, and where it comes from. Watch the next lesson: ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/OFwskHrtYQ4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/OFwskHrtYQ4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/OFwskHrtYQ4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Khan Academy",
+            "liveBroadcastContent": "none",
+            "publishTime": "2018-06-25T17:36:29Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "YN4cQcUdJpDDwrprdl_GOnuaDcY",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "P__dEWo_WiI"
+          },
+          "snippet": {
+            "publishedAt": "2020-04-14T19:00:10Z",
+            "channelId": "UCShHFwKyhcDo3g7hr4f1R8A",
+            "title": "Your Daily Equation #12: The Schrödinger Equation--the Core of Quantum Mechanics",
+            "description": "Episode 12 #YourDailyEquation: At the core of Quantum Mechanics -- the most precise theory ever developed -- is Schrödinger's Equation. In this episode of ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/P__dEWo_WiI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/P__dEWo_WiI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/P__dEWo_WiI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "World Science Festival",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-04-14T19:00:10Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "BEq1TqMTJ1PLhXBCfugX2rtTWUo",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "ZfKq3g3MHqE"
+          },
+          "snippet": {
+            "publishedAt": "2016-11-14T11:08:45Z",
+            "channelId": "UCFk__1iexL3T5gvGcMpeHNA",
+            "title": "The Schrodinger equation made simple | Linearity",
+            "description": "We've talked about the quantum state plenty- but what happens to it over time? That's exactly the question the Schrodinger equation solves. This video we talk ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ZfKq3g3MHqE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ZfKq3g3MHqE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ZfKq3g3MHqE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Looking Glass Universe",
+            "liveBroadcastContent": "none",
+            "publishTime": "2016-11-14T11:08:45Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "SAJ6O-vmIwnyA8ptbt0MC5IyilE",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "AR23uxZruhE"
+          },
+          "snippet": {
+            "publishedAt": "2021-02-12T14:00:07Z",
+            "channelId": "UCxqAWLTk1CmBvZFPzeZMd9A",
+            "title": "Can I Explain the Schrödinger Equation in 60 Seconds?",
+            "description": "The Schrödinger Equation is the key equation in quantum physics that explains how particles in quantum physics behave. You wanna know where your electron ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/AR23uxZruhE/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/AR23uxZruhE/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/AR23uxZruhE/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "DoS - Domain of Science",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-02-12T14:00:07Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "18LvP-yfsaSmQHaylq6ebfqObbE",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "IsX5iUKNT2k"
+          },
+          "snippet": {
+            "publishedAt": "2012-01-19T18:21:57Z",
+            "channelId": "UCIVaddFslWk1TFoKNrvh99Q",
+            "title": "Schrodinger Equation - A simple derivation",
+            "description": "A basic derivation, in one dimension, of the Schrodinger Equations. I assume basic knowledge of algebra and calculus and some general physics. The video is ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/IsX5iUKNT2k/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/IsX5iUKNT2k/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/IsX5iUKNT2k/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "DrPhysicsA",
+            "liveBroadcastContent": "none",
+            "publishTime": "2012-01-19T18:21:57Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "51LQQ1aoRrcTDol1dMWkpw-Yn5o",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "kUm4q0UIpio"
+          },
+          "snippet": {
+            "publishedAt": "2017-12-25T22:57:06Z",
+            "channelId": "UCGDanWUzNMbIV11lcNi-yBg",
+            "title": "Introduction to Quantum Mechanics: Schrodinger Equation",
+            "description": "There's no better way to celebrate Christmas than with a 12 minute video on the Schrodinger Equation! In this lesson, I introduce Quantum Mechanics with a ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/kUm4q0UIpio/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/kUm4q0UIpio/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/kUm4q0UIpio/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Faculty of Khan",
+            "liveBroadcastContent": "none",
+            "publishTime": "2017-12-25T22:57:06Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "0G9AdnWSOkBCuf_bGntz7nyQI3s",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "UjaAxUO6-Uw"
+          },
+          "snippet": {
+            "publishedAt": "2014-10-14T15:02:48Z",
+            "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+            "title": "Schrödinger&#39;s cat: A thought experiment in quantum mechanics - Chad Orzel",
+            "description": "View full lesson: http://ed.ted.com/lessons/schrodinger-s-cat-a-thought-experiment-in-quantum-mechanics-chad-orzel Austrian physicist Erwin Schrödinger, one ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/UjaAxUO6-Uw/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/UjaAxUO6-Uw/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/UjaAxUO6-Uw/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "TED-Ed",
+            "liveBroadcastContent": "none",
+            "publishTime": "2014-10-14T15:02:48Z"
+          }
+        }
+      ],
+      "curr": 1
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "WtlP8mNzl9tRBDW77bIAoo2vMX8",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy45RjNFMDhGQ0Q2RkFCQTc1",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:07:58Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L1.3 Necessity of complex numbers.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/f079K1f2WQk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/f079K1f2WQk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/f079K1f2WQk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/f079K1f2WQk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/f079K1f2WQk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "f079K1f2WQk"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      },
+      "understood": true,
+      "feedback": "what is a complex number",
+      "playlist": [
+        {
+          "kind": "youtube#searchResult",
+          "etag": "d2bPc9EKUcb-NPufy3TqLRQq5lA",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "SP-YJe7Vldo"
+          },
+          "snippet": {
+            "publishedAt": "2014-02-12T23:04:10Z",
+            "channelId": "UC4a-Gbdw7vOaccHmFo40b9g",
+            "title": "Introduction to complex numbers | Imaginary and complex numbers | Precalculus | Khan Academy",
+            "description": "Practice this lesson yourself on KhanAcademy.org right now: ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/SP-YJe7Vldo/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/SP-YJe7Vldo/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/SP-YJe7Vldo/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Khan Academy",
+            "liveBroadcastContent": "none",
+            "publishTime": "2014-02-12T23:04:10Z"
+          },
+          "understood": true,
+          "feedback": "i think i'm ready to move on"
+        }
+      ],
+      "curr": 1
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Eqwa7xlULwfWBEUxJxR-AyxEXbM",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy4zMDg5MkQ5MEVDMEM1NTg2",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:07:39Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L1.4 Photons and the loss of determinism.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8OsUQ1yXCcI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8OsUQ1yXCcI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8OsUQ1yXCcI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8OsUQ1yXCcI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8OsUQ1yXCcI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "8OsUQ1yXCcI"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "FuZputPlW4RW1_lQfvDKXZL5zws",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy44NjIxNjc5OUQwQkJBODQ5",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:08:56Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L1.5 The nature of superposition. Mach-Zehnder interferometer.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CR-eOhdxbes/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CR-eOhdxbes/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CR-eOhdxbes/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/CR-eOhdxbes/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/CR-eOhdxbes/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "CR-eOhdxbes"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "G_Yd8e7zSCzCUAovrSPIfGDtw-Y",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy5EQUE1NTFDRjcwMDg0NEMz",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:07:39Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L2.1 More on superposition. General state of a photon and spin states.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0xNmc2tJ-YM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0xNmc2tJ-YM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0xNmc2tJ-YM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0xNmc2tJ-YM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0xNmc2tJ-YM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "0xNmc2tJ-YM"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "YrVqFysvmKYcczD_E8nQcIH1ZPE",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy5CNTZFOTNGQzZEODg1RUQx",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:08:23Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L2.2 Entanglement.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G3HSP3qMgKI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G3HSP3qMgKI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G3HSP3qMgKI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/G3HSP3qMgKI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/G3HSP3qMgKI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "G3HSP3qMgKI"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8XFNLrCYCj42fB82D-tz-7Z3JpY",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy41QTY1Q0UxMTVCODczNThE",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:07:39Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L2.3 Mach-Zehnder interferometers and beam splitters.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0USje5vTIKs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0USje5vTIKs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0USje5vTIKs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0USje5vTIKs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0USje5vTIKs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "0USje5vTIKs"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "92UsFRafBKgln350a-l8Li3pgL4",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:07:39Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L2.4 Interferometer and interference.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/37-GdFJGSXs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/37-GdFJGSXs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/37-GdFJGSXs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/37-GdFJGSXs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/37-GdFJGSXs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "37-GdFJGSXs"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Zng2_ogGp0rlV3i9fKJ6QOxaNHU",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:07:39Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L2.5 Elitzur-Vaidman bombs.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vFZeh8bMx58/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vFZeh8bMx58/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vFZeh8bMx58/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vFZeh8bMx58/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vFZeh8bMx58/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "vFZeh8bMx58"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "qvDlyfz2kaxwz427dAWGia87qMQ",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy44QjNCNkRENjNFQTBEMUND",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:08:56Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L3.1 The photoelectric effect.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/byEaU9ILHmw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/byEaU9ILHmw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/byEaU9ILHmw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/byEaU9ILHmw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/byEaU9ILHmw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "byEaU9ILHmw"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "3ARCe3BAwRwzljtAZC-sHO6auCc",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy5EMEEwRUY5M0RDRTU3NDJC",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:07:39Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L3.2 Units of h and Compton wavelength of particles.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/S9RjSQro2e0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/S9RjSQro2e0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/S9RjSQro2e0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/S9RjSQro2e0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/S9RjSQro2e0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "S9RjSQro2e0"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "VStZJ4ZzT-14N-D6soguETpN9SI",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy5CQzUwREI3MzkxQjdBM0E0",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:08:56Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L3.3 Compton Scattering.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WR88_Vzfcx4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WR88_Vzfcx4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WR88_Vzfcx4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/WR88_Vzfcx4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/WR88_Vzfcx4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "WR88_Vzfcx4"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "QeWtMBrnNYM-hGecSefthil_jl8",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy40QTA3NTU2RkM1QzlCMzYx",
+      "snippet": {
+        "publishedAt": "2017-06-22T15:07:58Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L3.4 de Broglie’s proposal.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dnuZx9fZHsU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dnuZx9fZHsU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dnuZx9fZHsU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dnuZx9fZHsU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dnuZx9fZHsU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dnuZx9fZHsU"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "KRogVJC9_88kbCO7cpUG_06Gr6k",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy5CNzAzQzRDMkI3QThEQzZB",
+      "snippet": {
+        "publishedAt": "2017-07-31T18:38:05Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L4.1 de Broglie wavelength in different frames.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8x94EgM2Mpg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8x94EgM2Mpg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8x94EgM2Mpg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8x94EgM2Mpg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8x94EgM2Mpg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "8x94EgM2Mpg"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "xX8iJYWnllqgDwqv4N8hOLdNo9M",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy41NUMwNTVERDNBRDc4REM0",
+      "snippet": {
+        "publishedAt": "2017-07-31T18:37:25Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L4.2 Galilean transformation of ordinary waves.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YdtHAIh-kas/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YdtHAIh-kas/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YdtHAIh-kas/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YdtHAIh-kas/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YdtHAIh-kas/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 15,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "YdtHAIh-kas"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "QZVec5YWkQB8QXw7IJ6yOS4y1kA",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy4wMEMyQTBBOTUwNTM0OUFG",
+      "snippet": {
+        "publishedAt": "2017-07-31T18:37:25Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L4.3 The frequency of a matter wave.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3_qvO8bKGus/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3_qvO8bKGus/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3_qvO8bKGus/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3_qvO8bKGus/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3_qvO8bKGus/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 16,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "3_qvO8bKGus"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "iPpfQaj0kIccXy_SddIA1gCdee8",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy44REI4QUZDRDI5MDc4Q0NF",
+      "snippet": {
+        "publishedAt": "2017-07-31T18:37:25Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L4.4 Group velocity and stationary phase approximation.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-UgQEHHXTRM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-UgQEHHXTRM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-UgQEHHXTRM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-UgQEHHXTRM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-UgQEHHXTRM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 17,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-UgQEHHXTRM"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "smvIpPC626hx-sRY4vlVXSeauWM",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy43RjdBQTMwNUUwRTA1QkE3",
+      "snippet": {
+        "publishedAt": "2017-07-31T18:37:25Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L4.5 Motion of a wave-packet.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i81OpQJIH8U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i81OpQJIH8U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i81OpQJIH8U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/i81OpQJIH8U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/i81OpQJIH8U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 18,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "i81OpQJIH8U"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "zQAc-Jo0XH7sL5VXjeIpLUpuXdA",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy5EQTdFNDU3M0Y3MTM1QjlG",
+      "snippet": {
+        "publishedAt": "2017-07-31T18:38:05Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L4.6 The wave for a free particle.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/T6TQHNXy5Wg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/T6TQHNXy5Wg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/T6TQHNXy5Wg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/T6TQHNXy5Wg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/T6TQHNXy5Wg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 19,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "T6TQHNXy5Wg"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "XxgnFkCLj4U2Ytt255MpYrk9HLk",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy5ERkRDQjY0N0Y0Q0VFOTdC",
+      "snippet": {
+        "publishedAt": "2017-07-31T18:37:25Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L5.1 Momentum operator, energy operator, and a differential equation.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ELBh60GU5yE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ELBh60GU5yE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ELBh60GU5yE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ELBh60GU5yE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ELBh60GU5yE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 20,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ELBh60GU5yE"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "nLDryh2bFaJNq8H4_Pzk0dTxlW4",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy4wMTIyMTBBMTA3RDUxNjlD",
+      "snippet": {
+        "publishedAt": "2017-07-31T18:38:05Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L5.2 Free Schrödinger equation.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7euh_iwzSGo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7euh_iwzSGo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7euh_iwzSGo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7euh_iwzSGo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7euh_iwzSGo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 21,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "7euh_iwzSGo"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "yJrWdrz-pQOa6mwhiB24Nc73Fqk",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy5ENjg3MEUyQ0IzODMzQThB",
+      "snippet": {
+        "publishedAt": "2017-07-31T18:37:25Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L5.3 The general Schrödinger equation. x, p commutator.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rwzg8iEOc8s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rwzg8iEOc8s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rwzg8iEOc8s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rwzg8iEOc8s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rwzg8iEOc8s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 22,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "rwzg8iEOc8s"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "KWrllsLymGX8mMx3u_AlAWvJWAg",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy5DODY2Qzc5Mzc1QkZEQ0NF",
+      "snippet": {
+        "publishedAt": "2017-07-31T18:37:25Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L5.4 Commutators, matrices, and 3-dimensional Schrödinger equation.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m7UT2Hr465o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m7UT2Hr465o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m7UT2Hr465o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/m7UT2Hr465o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/m7UT2Hr465o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 23,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "m7UT2Hr465o"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "mM79NmLAWYAagDzdVNmNriah3MI",
+      "id": "UExVbDR1M2NOR1A2MGNzcFFuM045ZFlSUGl5VldEZDgwRy5DNUEzOUFFNkIyOUUzOTRC",
+      "snippet": {
+        "publishedAt": "2017-07-31T18:38:05Z",
+        "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+        "title": "L5.5 Interpretation of the wavefunction.",
+        "description": "MIT 8.04 Quantum Physics I, Spring 2016\nView the complete course: http://ocw.mit.edu/8-04S16\nInstructor: Barton Zwiebach\n\n\n\nLicense: Creative Commons BY-NC-SA\nMore information at http://ocw.mit.edu/terms\nMore courses at http://ocw.mit.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/R-5hjmV-bdY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/R-5hjmV-bdY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/R-5hjmV-bdY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/R-5hjmV-bdY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/R-5hjmV-bdY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MIT OpenCourseWare",
+        "playlistId": "PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G",
+        "position": 24,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "R-5hjmV-bdY"
+        },
+        "videoOwnerChannelTitle": "MIT OpenCourseWare",
+        "videoOwnerChannelId": "UCEBb1b_L6zDS3xTUrIALZOw"
+      }
+    }
+  ],
+  "title": "quantum mechanics",
+  "understood": true
+}

@@ -42,11 +42,13 @@ export function Feedback(props) {
             We're sorry to hear that - what was confusing?
           </Typography>
         </div> :
+        ((understood == true) ? 
         <div>
           <Typography>
             That's great! Any comments?
           </Typography>
-        </div> 
+        </div> :
+        <p></p>)
       }
       {(understood != null) ? 
         <TextField onChange={onChangeFeedback}/> :
