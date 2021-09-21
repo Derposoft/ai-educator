@@ -17,7 +17,7 @@ My simple algorithm is designed with the following tenets in mind:
 The 2 steps of the algorithm (granted, there are some sub-steps) are as follows:
 1. **Find Course Backbone (one-time step)**
 
-Start with a YouTube playlist on the topic from a reputable source (e.g. MIT OCW, Stanford, Khan Academy, etc.). These videos will serve as a "backbone" for the learning experience. This is the most efficient way to ensure a cohesive learning experience.
+Start with a YouTube playlist on the topic from a reputable source (e.g. MIT OCW, Stanford, Khan Academy, etc.). These videos will serve as a "backbone" for the learning experience. This is the most efficient way to ensure a cohesive learning experience. However, in the future, the individual videos could potentially be generated using video transcripts or video titles.
 
 2. **Teach (recursive step)**
 
