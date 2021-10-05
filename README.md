@@ -1,6 +1,6 @@
 # Welcome to the YouTube Education Project.
 
-*This is not a complete project, nor do I plan to complete it in this repository.* This is only a practical prototype which I presented as a part of the application process to join the team of USC students - which I am now a part of - to develop a complete version of this project. More details on that project may be found here in the future if it ever comes to fruition.
+*This is not a complete project, nor do I plan to complete it in this repository.* This is only a practical prototype which I presented as a part of the application process to join the team of USC students - which I am now a part of - to develop a complete version of this project. More details on that project may be found here in the future, if it ends up coming to fruition.
 
 ### 1. Recommender Algorithm Specifics
 
