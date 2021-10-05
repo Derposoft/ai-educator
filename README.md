@@ -9,15 +9,15 @@ Specifics on the general idea for the algorithm used in this project are in the 
 
 2. The client_secret.json file must be renamed to youtube_secret.json and put into a new folder "secrets/" in the root directory.
 
-3. Use of this project also requires a mongodb secret key json file. Create an account with the MongoDB Atlas cloud service (active as of September 2021, the writing of this line in this README) and after creating a database, create 2 collections named "users" and "courses". The secret file should be placed under mongodb_secret.json under the "secrets/" directory and look like the following document:
-{
-  "username": "username",
-  "password": "password",
-  "URI": "mongodb+srv://username:password@mongodbserver",
-  "db": "dbname",
-  "users": "users",
-  "courses": "courses"
-}
+3. Use of this project also requires a mongodb secret key json file. Create an account with the MongoDB Atlas cloud service (active as of September 2021, the writing of this line in this README) and after creating a database, create 2 collections named "users" and "courses". The secret file should be placed under mongodb_secret.json under the "secrets/" directory and look like the following document:\\
+{\\
+  "username": "username",\\
+  "password": "password",\\
+  "URI": "mongodb+srv://username:password@mongodbserver",\\
+  "db": "dbname",\\
+  "users": "users",\\
+  "courses": "courses"\\
+}\\
 
 3. Run the server by using the command "node server.js" for be/src/server.js.
 
