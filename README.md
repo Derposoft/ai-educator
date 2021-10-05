@@ -1,4 +1,8 @@
-Usage Instructions:
+# Welcome to the YouTube Education Project.
+## 1. Usage Instructions
+## 2. User Flow Photos
+
+**Usage Instructions:**
 
 1. Use of this project requires a youtube secret key json file. Instructions for how to obtain this file can be found at the following link: https://developers.google.com/youtube/v3/guides/auth/server-side-web-apps. If you need a hint: Ctrl+F "client_secret.json" and follow all the instructions leading up to that text.
 
@@ -17,3 +21,7 @@ Usage Instructions:
 3. Run the server by using the command "node server.js" for be/src/server.js.
 
 4. Run the front end in debug mode by using the command "npm start" under the directory fe/
+
+**User Flow Photos**
+
+[./images/1-home.png]
