@@ -1,8 +1,9 @@
 # Welcome to the YouTube Education Project.
-## 1. Usage Instructions
-## 2. User Flow Photos
+### 1. Recommender Algorithm Specifics
 
-**Usage Instructions:**
+Specifics on the general idea for the algorithm used in this project are in the README file under the be/ folder.
+
+### 2. Usage Instructions
 
 1. Use of this project requires a youtube secret key json file. Instructions for how to obtain this file can be found at the following link: https://developers.google.com/youtube/v3/guides/auth/server-side-web-apps. If you need a hint: Ctrl+F "client_secret.json" and follow all the instructions leading up to that text.
 
@@ -22,6 +23,10 @@
 
 4. Run the front end in debug mode by using the command "npm start" under the directory fe/
 
+### 3. User Flow Photos
+
+
+
 **User Flow Photos**
 
-[./images/1-home.png]
+[Home Page](./images/1-home.png)
