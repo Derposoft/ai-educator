@@ -34,15 +34,15 @@ If all goes well, the app should look like the following, and has the following 
 
 ![Course Generation](https://github.com/Derposoft/youtube-edu-research/blob/main/images/2-course_generation.png)
 
-3. Once on the YC page, the user will see a list of their currently-enrolled courses at the top of the page. Upon clicking "CONTINUE", content for the specified course populates the bottom half of the page. Below everything is just debug information - just ignore it :).
+3. Once on the YC page, the user will see a list of their currently-enrolled courses at the top of the page. Upon clicking "CONTINUE", content for the specified course populates the bottom half of the page. Below that is just debug information - just ignore it :).
 
 ![Courses page](https://github.com/Derposoft/youtube-edu-research/blob/main/images/3-courses.png)
 
-4. In order to progress in the course, the user has to answer to the right of the video: "Did you understand the material?". In the case that the user clicks X, they are forced to give a reason. After they provide the reason and click next, they will are redirected to the next video.
+4. In order to progress in the course, the user has to answer to the right of the video: "Did you understand the material?" In the event that the user clicks X, they are forced to give a reason. After they provide the reason and click next, they will are redirected to the next video.
 
 ![No Understanding](https://github.com/Derposoft/youtube-edu-research/blob/main/images/4-no_understanding.png)
 
-5. If they didn't understand, the next video in the course is delayed and a supplemental help video is injected into the course instead. Once again, for every video, the user must answer whether or not they understand the content. In the event that they do, they are allowed to provide an optional note on the video.
+5. If they didn't understand, the next video in the course is delayed and a supplemental help video is injected into the course instead, chosen based on the provided feedback. Once again, for every video, the user must answer whether or not they understand the content. In the event that they do, they are allowed to provide an optional note on the video.
 
 ![Yes Understanding](https://github.com/Derposoft/youtube-edu-research/blob/main/images/5-yes_understanding.png)
 
