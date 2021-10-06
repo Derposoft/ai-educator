@@ -1,6 +1,4 @@
-The following is an example of a "course generation algorithm". 
-
-NOTICE: THIS IS MORE UPDATED THAN ALGO FOLDER. ALGO FOLDER WILL LIKELY BE DELETED SOON.
+The following is an example of a "course generation algorithm".
 
 
 My simple algorithm is designed with the following tenets in mind:
