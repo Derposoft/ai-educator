@@ -2,7 +2,9 @@
 
 This is a web app designed to use AI to generate structured, educational content by leveraging the existing media on content-sharing platforms. In theory, any content-sharing platform could be used - DailyMotion, YouTube, Vimeo, and so on - but for this prototype, I have chosen YouTube, as it has a simple, free-to-use API. This basic prototype, while containing elements of "AI", does not *yet* use any ML - but future plans to do so, including the currently-implemented algorithm running in the back end, can all be found under the "Recommender Algorithm Specifics" section below.
 
-To clarify, *this is not a complete project, nor do I plan to complete it in this repository.* This is only a practical prototype which I presented in order to gain invitation to the team of USC students - which I am now a part of - who are developing a complete version of this project. More details on that project may be found here in the future, if it ends up coming to fruition.
+To clarify, *this is not a complete project, nor do I plan to complete it ~~in this repository~~.* This is only a practical prototype which I presented in order to gain invitation to the team of USC students ~~- which I am now a part of -~~ who are developing a complete version of this project. ~~More details on that project may be found here in the future, if it ends up coming to fruition.~~
+
+**Update As of Oct. 2021:** Due to time limitations between grad school work and my research job at the USC Institute for Creative Technologies, I have decided to leave this group. However, standalone, the project in this repository is still one that I am proud of. It is possible that I will make some more commits here -- especially if I decide in the future that I want to put some of my AI knowledge down the line to use for fun -- but for the time being, my focus will be academic in nature.
 
 ### 1. Usage Instructions
 
